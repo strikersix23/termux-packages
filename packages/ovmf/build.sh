@@ -14,7 +14,7 @@ termux_step_post_get_source() {
 	local _RPMS=()
 	# Example:
 	# _RPMS+=("SUFFIX 0000000000000000000000000000000000000000000000000000000000000000")
-	_RPMS+=("aarch64      6746672f0a251cf5ee7f52aea969dd6ee372972258719ef2b2cee865f8c0f514) # aarch64
+	_RPMS+=("aarch64      6746672f0a251cf5ee7f52aea969dd6ee372972258719ef2b2cee865f8c0f514") # aarch64
 	_RPMS+=("arm          6746672f0a251cf5ee7f52aea969dd6ee372972258719ef2b2cee865f8c0f514") # arm
 	_RPMS+=("ovmf-ia32    6746672f0a251cf5ee7f52aea969dd6ee372972258719ef2b2cee865f8c0f514") # i686
 	_RPMS+=("ovmf         eaecf688f69889fe6482857b169f540e72ccfff8e165d7a104a92f82274261b6") # x86_64
