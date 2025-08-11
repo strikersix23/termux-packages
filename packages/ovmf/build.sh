@@ -14,9 +14,9 @@ termux_step_post_get_source() {
 	local _RPMS=()
 	# Example:
 	# _RPMS+=("SUFFIX 0000000000000000000000000000000000000000000000000000000000000000")
-	_RPMS+=("aarch64      decddd49193087dfcb5cd31e9727f538249200894d0bdca9d7c77e76a2ad0b97") # aarch64
-	_RPMS+=("arm          03bb429360aae4454716560cfe662812594405d9c43b0dd33d5a20a53f1bf813") # arm
-	_RPMS+=("ovmf-ia32    867ae577c6bf6aa7977b147105b229f94238b26e1b78da8d7df79084e2eb47d4") # i686
+	_RPMS+=("aarch64      6746672f0a251cf5ee7f52aea969dd6ee372972258719ef2b2cee865f8c0f514) # aarch64
+	_RPMS+=("arm          6746672f0a251cf5ee7f52aea969dd6ee372972258719ef2b2cee865f8c0f514") # arm
+	_RPMS+=("ovmf-ia32    6746672f0a251cf5ee7f52aea969dd6ee372972258719ef2b2cee865f8c0f514") # i686
 	_RPMS+=("ovmf         eaecf688f69889fe6482857b169f540e72ccfff8e165d7a104a92f82274261b6") # x86_64
 	_RPMS+=("riscv64      e7c6e7a7d052307fa696103bc6eb7076ddf36ed9f922edbf7d3f3f3ffae099b4") # riscv64
 	_RPMS+=("ovmf-xen     3696a326ea5f68863426477335868c570a7911baee4086f372ff360c829fe6ec") # xen build
